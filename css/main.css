@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+.header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header__redes{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #47cfac;
+}
+
+.header__redes--icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px; 
+}
+
+.header__redes--icons span {
+    color: white;
+}
+
+.header__menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+.header__menu--logo {
+    margin-left: 50px;
+}
+
+.header__menu--sobremi {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.header__menu--logo img {
+    width: 250px;
+    margin-top: 10px;
+}
+
+.header__menu--sobremi a {
+    color: black;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    background-image: url('../assets/img/city_night.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main__container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.main__container--titulo {
+    text-align: center;
+    display: flex;
+    width: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: white;
+    letter-spacing: 10px;
+}
+
+.main__container--boton {
+    width: 120px;
+    height: 30px;
+    background-color: #47cfac;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 14px;
+
+
+}
+
+.main__container--boton:hover {    
+    background-color: cadetblue;
+    color: white;
+    cursor: pointer;
+}
