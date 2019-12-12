@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    /* position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;   */
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+.header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header__redes{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #47cfac;
+}
+
+.header__redes--icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px; 
+}
+
+.header__redes--icons span {
+    color: white;
+}
+
+.header__menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+.header__menu--logo {
+    margin-left: 50px;
+}
+
+.header__menu--sobremi {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.header__menu--logo img {
+    width: 250px;
+    margin-top: 10px;
+}
+
+.header__menu--sobremi a {
+    color: black;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+/* .main{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    background-image: url('../assets/img/city_night.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main__container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+
+.main__container--boton {
+    width: 120px;
+    height: 30px;
+    background-color: #47cfac;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 14px;
+
+
+}
+
+.main__container--boton:hover {    
+    background-color: cadetblue;
+    color: white;
+    cursor: pointer;
+} */
+
+.main__blogs {
+    display: grid;
+    width: 100%;
+    height: 1500px;
+    grid-template-rows: 1.3fr 2fr 0.2fr;
+}
+
+.main__blogs--titulo {
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.main__blogs--column_1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__blogs--titulo--column_1 {
+    padding: 0 30px;
+}
+
+.main__blogs--titulo--column_1 h1{
+    margin: 10 auto;
+    text-align: left;
+}
+
+.main__blogs--column_1--img {
+    /* width: 100%; */
+    margin: 0 auto;
+    background-image: url('../assets/img/lorenzo-herrera-p0j-mE6mGo4-unsplash-2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85%; 
+}
+
+.main__blogs--titulo--column_2 {
+    padding: 0 30px 0 20px;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.main__blogs--titulo--column_2 h1{
+    max-width: 350px;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 32px;
+    letter-spacing: 5px;
+}
+
+.main__blogs--titulo--column_2 {
+    max-width: 350px;
+}
+
+.main__blogs--titulo--column_2 button {
+    width: 120px;
+    height: 30px;
+    background-color: lightgrey;
+    border: 1.5px solid #47cfac;
+    color: black;
+    font-weight: bold;
+}
+
+.main__blogs--titulo--column_2 button:hover {
+    background-color: gray;
+    border: 1.5px solid #47cfac;
+    color:#47cfac;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
